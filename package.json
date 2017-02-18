@@ -1,0 +1,25 @@
+{
+  "name": "ideakeeper",
+  "version": "1.0.0",
+  "description": "A Galvanize Demo App from http://www.galvanize.com/learn/learn-to-code/build-full-stack-app-40-minutes/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "galvanize",
+    "full-stack",
+    "app",
+    "demo"
+  ],
+  "author": "Heather Dykstra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "knex": "^0.12.7",
+    "sqlite": "^2.3.0",
+    "sqlite3": "^3.1.8"
+  }
+}

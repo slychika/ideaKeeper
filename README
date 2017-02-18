@@ -1,0 +1,18 @@
+This is a basic full stack application from Galvanize
+(http://www.galvanize.com/learn/learn-to-code/build-full-stack-app-40-minutes/)
+In order to run this app you will need to do the following:
+Install Homebrew:
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Install Node:
+brew install node
+
+Install Sqlite
+brew install sqlite3
+
+From the main dir (/ideaKeeper)
+npm init
+npm install express body-parser sqlite knex --save
+node server.js
+
+Open your browser and navigate to localhost:3000
